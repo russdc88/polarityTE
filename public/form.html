@@ -10,7 +10,9 @@
 		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/style.css">
 
-	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
+
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 	<title>Submit your info!</title>
@@ -23,7 +25,9 @@
 		<div class="container text-center">
 			<h1 class="display-4">Submit your Avatar!</h1>
 			<p class="lead">Please fill out the form below to submit</p>
+			<button type="submit" class="btn btn-primary theList">Avatar List</button>
 		</div>
+	</div>
 	</div>
 	<div class="container text-center avatarForm">
 
@@ -40,9 +44,9 @@
 			</div>
 
 
-			<div class="form-group">
-				<label for="avatarFile">Upload your avator pic</label>
-				<input name="uploadedPic" type="file" accept=".png,.jpg" class="form-control-file" id="avatarPic">
+			<div class="form-group text-left">
+				<label for="avatarFile">Upload your avator pic (max size: 1 mb)</label>
+				<input name="uploadedPic" type="file" class="form-control-file" id="avatarPic" accept="image/*">
 			</div>
 
 

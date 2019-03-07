@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "wildcard88",
+    "password": "insert password here",
     "database": "avatar",
     "host": "127.0.0.1",
     "port": 3306,
@@ -9,15 +9,15 @@
   },
   "test": {
     "username": "root",
-    "password": "wildcard88",
-    "database": "database_test",
+    "password": "",
+    "database": "insert password here",
     "host": "127.0.0.1",
     "port": 3306,
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "wildcard88",
+    "password": "insert password here",
     "database": "database_production",
     "host": "127.0.0.1",
     "port": 3306,
