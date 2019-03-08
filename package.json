@@ -1,29 +1,28 @@
 {
-  "name": "polarityte",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "multer": "^1.4.1",
-    "mysql2": "^1.6.5",
-    "sequelize": "^4.43.0"
-    
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/russdc88/polarityTE.git"
-  },
-  "author": "Russ Christensen",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/russdc88/polarityTE/issues"
-  },
-  "homepage": "https://github.com/russdc88/polarityTE#readme"
+	"name": "polarityte",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"multer": "^1.4.1",
+		"mysql2": "^1.6.5",
+		"sequelize": "^4.43.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/russdc88/polarityTE.git"
+	},
+	"author": "Russ Christensen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/russdc88/polarityTE/issues"
+	},
+	"homepage": "https://github.com/russdc88/polarityTE#readme"
 }

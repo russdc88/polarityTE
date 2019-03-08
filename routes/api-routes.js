@@ -25,24 +25,24 @@ module.exports = function (app) {
 	app.post("/upload", upload.single("uploadedPic"), function (req, res) {
 
 		db.Avatar.create({
-		  name: req.body.name,
-		  hobby: req.body.hobby,
-		  imagePath:req.file.filename
+			name: req.body.name,
+			hobby: req.body.hobby,
+			imagePath: req.file.filename
 		})
-		  .then(function(dbPost) {
-		    res.json(dbPost);
+			.then(function (dbPost) {
+				res.json(dbPost);
 			});
-			
+
 	});
 
 
-	app.get("/avatar", function(req, res) {
-    db.Avatar.findAll({})
-      .then(function(dbPost) {
-        res.json(dbPost);
-      });
-  });
+	app.get("/avatar", function (req, res) {
+		db.Avatar.findAll({})
+			.then(function (dbPost) {
+				res.json(dbPost);
+			});
+	});
 
-	
+
 
 };

@@ -2,7 +2,7 @@
 
 Please clone the PolarityTE project and follow installation instructions.
 
-##Installation
+## Installation
 
 To start, we will need to use node.js to run this application. Please refer to this [link](https://www.npmjs.com/get-npm) to start installation.
 
