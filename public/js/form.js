@@ -5,20 +5,16 @@ $(document).ready(function () {
 	$("#profile").on("submit", function handleFormSubmit(event) {
 		event.preventDefault()
 
-
+		//Grabbing name and hobby from form
 		var name = $("#name").val().trim()
 		var hobby = $("#hobby").val().trim()
 
-
+		//Grabbing file, name, and hobby and adding it to a FormData to send through Ajax
 		var formData = new FormData(this);
 		formData.append("name", name)
 		formData.append("hobby", hobby)
 
-		for (var pair of formData.entries()) {
-			console.log(pair[0] + ', ' + pair[1]);
-		}
-
-
+		//Ajax call to send the Form Data to Server.
 		$.ajax({
 			type: "POST",
 			url: "/upload",
@@ -34,10 +30,9 @@ $(document).ready(function () {
 				console.log("some error", e);
 			}
 		});
-
-
 	})
 
+	//Sends to Avatar page for the Avatar List button on Main page. 
 	$(".theList").on("click", function () {
 		window.location.href = "/avatarList";
 	})
