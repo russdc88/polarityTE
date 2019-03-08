@@ -36,9 +36,6 @@ $(document).ready(function () {
 		});
 
 
-
-
-
 	})
 
 	$(".theList").on("click", function () {
