@@ -25,6 +25,7 @@ To start, we will need to use node.js to run this application. Please refer to t
 	- run the following code:
 
 	```
+
 	cd polarityTE
 
 	npm i
@@ -35,6 +36,7 @@ To start, we will need to use node.js to run this application. Please refer to t
 	- From here everything should be setup to go. run the following code:
 
 	```
+	
 	npm start
 
 	```
